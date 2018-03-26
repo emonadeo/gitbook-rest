@@ -1,0 +1,104 @@
+.rest {
+  display: grid;
+  grid-template-columns: min-content min-content auto;
+  grid-row-gap: 0.5em;
+  line-height: 1em;
+}
+
+.rest > div {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.method {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 0.5em 1em !important;
+  border-radius: 0.2em 0 0 0.2em;
+}
+
+.url {
+  flex: 1;
+  font-family: monospace;
+}
+
+.desc {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  border-radius: 0 0.2em 0.2em 0;
+}
+
+.method.x {
+  background-color: #607D8B;
+}
+
+.desc.x {
+  color: #607D8B;
+}
+
+.x {
+  background-color: #e1e7ea;
+}
+
+.method.get {
+  background-color: #4078c0;
+}
+
+.desc.get {
+  color: #4078c0;
+}
+
+.get {
+  background-color: #d9e4f2;
+}
+
+.method.post {
+  background-color: #4caf50;
+}
+
+.desc.post {
+  color: #4caf50;
+}
+
+.post {
+  background-color: #dcefdc;
+}
+
+.method.put {
+  background-color: #f0b400;
+}
+
+.desc.put {
+  color: #c90;
+}
+
+.put {
+  background-color: #fff2cc;
+}
+
+.method.patch {
+  background-color: #673AB7;
+}
+
+.desc.patch {
+  color: #673AB7;
+}
+
+.patch {
+  background-color: #e2d8f3;
+}
+
+.method.delete {
+  background-color: #cb2431;
+}
+
+.desc.delete {
+  color: #cb2431;
+}
+
+.delete {
+  background-color: #f7d4d7;
+}

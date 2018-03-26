@@ -1,0 +1,20 @@
+{
+  "name": "gitbook-plugin-rest",
+  "version": "0.1.0",
+  "description": "REST Code Blocks for GitBook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emonadeo/gitbook-rest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Emonadeo/gitbook-rest/issues"
+  },
+  "author": "Emonadeo",
+  "homepage": "https://github.com/Emonadeo/gitbook-rest#readme",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {}
+  }
+}
