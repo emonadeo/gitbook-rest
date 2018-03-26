@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: min-content min-content auto;
   grid-row-gap: 0.5em;
-  line-height: 1em;
+  line-height: normal;
 }
 
 .rest > div {
