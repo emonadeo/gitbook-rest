@@ -9,6 +9,12 @@
   "bugs": {
     "url": "https://github.com/Emonadeo/gitbook-rest/issues"
   },
+  "keywords": [
+    "gitbook-rest",
+    "rest",
+    "crud",
+    "http"
+  ],
   "author": "Emonadeo",
   "homepage": "https://github.com/Emonadeo/gitbook-rest#readme",
   "engines": {
