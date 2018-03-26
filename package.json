@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-rest",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "REST Code Blocks for GitBook",
   "repository": {
     "type": "git",
