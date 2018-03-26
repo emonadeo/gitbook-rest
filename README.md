@@ -1,11 +1,23 @@
 # GitBook REST Plugin
 
+![](https://img.shields.io/npm/v/gitbook-plugin-rest.svg)
+![](https://img.shields.io/npm/dt/gitbook-plugin-rest.svg)
+
 Document visually appealing REST applications using the HTTP Methods, `GET`, `POST`, `PUT`, `PATCH` and `DELETE` while providing an additional description.
 
 ![](https://i.imgur.com/O34NfbN.png)
 
-## Usage
+## Installation
 
+Installing it is as easy as adding `rest` to your plugins list inside your book.json:
+```
+{
+  "plugins": ["rest"]
+}
+```
+Once added, run the command `gitbook install` and you're good to go.
+
+## Usage
 Every set of HTTP Methods is contained in a block named `rest`:
 
 ```
