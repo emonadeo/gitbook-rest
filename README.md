@@ -8,7 +8,9 @@ Document visually appealing REST applications using the HTTP Methods, `GET`, `PO
 ![](https://i.imgur.com/O34NfbN.png)
 
 ## Installation
-
+```
+npm i gitbook-plugin-rest --save
+```
 Installing it is as easy as adding `rest` to your plugins list inside your book.json:
 ```
 {
