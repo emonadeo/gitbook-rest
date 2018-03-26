@@ -16,11 +16,9 @@
     "http"
   ],
   "author": "Emonadeo",
+  "license": "MIT",
   "homepage": "https://github.com/Emonadeo/gitbook-rest#readme",
   "engines": {
     "gitbook": ">1.x.x"
-  },
-  "gitbook": {
-    "properties": {}
   }
 }
