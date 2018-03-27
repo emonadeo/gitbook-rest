@@ -53,7 +53,6 @@ You can put as many as you want of them inside your previously created REST-Bloc
 ```
 
 ## Customization
-
 ### Aligning the description (RTL)
 
 ![](https://i.imgur.com/DV9DT2e.png)
