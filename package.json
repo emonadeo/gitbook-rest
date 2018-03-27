@@ -20,5 +20,14 @@
   "homepage": "https://github.com/Emonadeo/gitbook-rest#readme",
   "engines": {
     "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "rtl": {
+        "type": "boolean",
+        "default": "true",
+        "description": "Aligns the description to the right instead of left"
+      }
+    }
   }
 }

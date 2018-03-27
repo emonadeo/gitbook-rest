@@ -5,7 +5,7 @@
 
 Document visually appealing REST applications using the HTTP Methods, `GET`, `POST`, `PUT`, `PATCH` and `DELETE` while providing an additional description.
 
-![](https://i.imgur.com/O34NfbN.png)
+![](https://i.imgur.com/TxBSMKb.png)
 
 ## Installation
 ```
@@ -42,12 +42,28 @@ You can put as many as you want of them inside your previously created REST-Bloc
 
   {% get "/store/books/{id}" %}
     Finds book by ID
-    
+
   {% post "/store/books" %}
     Adds a book to the store
-    
+
   {% delete "/store/books" %}
     Deletes a book from the store
-    
+
 {% endrest %}
+```
+
+## Customization
+
+### Aligning the description (RTL)
+
+![](https://i.imgur.com/DV9DT2e.png)
+
+By default the description aligns to the right border, however you can optionally align it to the left as well by adding a configuration for your book inside your `book.json`:
+
+```
+"pluginsConfig": {
+  "rest": {
+    "rtl": false
+  }
+}
 ```
